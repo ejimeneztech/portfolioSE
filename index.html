@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilio Jimenez - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header h2 {
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .tagline {
+            font-style: italic;
+            margin: 10px 0;
+            color: #555;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #eee;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h3 {
+            margin-bottom: 15px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .project-card h4 {
+            margin: 0 0 5px 0;
+        }
+        .skills span {
+            display: inline-block;
+            background: #eee;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emilio Jimenez</h1>
+            <h2>Software Engineer / Backend Developer</h2>
+            <p class="tagline">Building clean, scalable, and efficient software solutions.</p>
+            <div class="buttons">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Resume (PDF)</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h3>About Me</h3>
+            <p>I'm a software engineer with experience in Python, JavaScript, and cloud technologies like AWS. I enjoy building efficient backends, APIs, and automation solutions. My focus is creating reliable, maintainable systems that solve real-world problems.</p>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects">
+                <div class="project-card">
+                    <h4>E-commerce Platform</h4>
+                    <p>A full-stack e-commerce application</p>
+                    <p><strong>Tech:</strong> JavaScript, Node.js, MongoDB</p>
+                    <a href="#">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <h4>Task Manager API</h4>
+                    <p>A RESTful API for managing tasks</p>
+                    <p><strong>Tech:</strong> Python, Flask</p>
+                    <a href="#">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <h4>Chat Application</h4>
+                    <p>A real-time chat application</p>
+                    <p><strong>Tech:</strong> JavaScript, React, Socket.io</p>
+                    <a href="#">Live Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h3>Skills</h3>
+            <div class="skills">
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>C#</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Unity</span>
+                <span>AWS</span>
+                <span>Git</span>
+                <span>Docker</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:emilio.twain@example.com">emilio.twain@example.com</a></p>
+            <p><a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+        </section>
+
+        <footer>
+            &copy; 2025 Emilio Jimenez. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
